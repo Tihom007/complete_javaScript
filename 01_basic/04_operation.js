@@ -21,3 +21,10 @@ console.log(myNumber++); // output => 12 | print 12 then increase by 1
 console.log(myNumber--); // output => 13 | print increased value that is 13 then decrease by 1
 console.log(++myNumber); // output => 13 | increase 12 by 1 then print 
 console.log(--myNumber); // output => 12 | decrease 13 by 1 then print 
+
+/*||||||||||Comparision||||||||||||*/
+
+console.log(2>1);
+console.log(2 != 1);
+console.log(2 == "2");
+console.log(2 === "2"); // '===' compare value as well as the data_type of variable
