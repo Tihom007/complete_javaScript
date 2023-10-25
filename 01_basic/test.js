@@ -1,1 +1,1 @@
-console.log("Tihom")
+console.log("Tihom");
