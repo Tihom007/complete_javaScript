@@ -37,14 +37,20 @@ const dcTrinity = ['Wonder-woman', 'Batman', 'Superman'];
 const mixedTrinity = marvelTrinity.concat(dcTrinity);
 // console.log(mixedTrinity);
 
-const allMixedTrinity = [...marvelTrinity , ...dcTrinity]
+const allMixedTrinity = [...marvelTrinity , ...dcTrinity] // spread operator
 // console.log(allMixedTrinity)
 
-console.log(Array.isArray("Ziglar_Nata"))
-console.log(Array.from("Ziglar_Nata"))
-console.log(Array.from({pea:"Pysumsatibhum"})) // intresting
+const simpleArray = [1, 2, 4, 3, [5, 6, [8, 9, [6, 9]]] ];
+const anotherSimpleArray = simpleArray.flat()
+console.log(anotherSimpleArray);
+
+// console.log(Array.isArray("Ziglar_Nata"))
+// console.log(Array.from("Ziglar_Nata"))
+console.log(Array.from({pea:"Pysumsativum"})) // intresting
 
 let math = 88;
 let science = 79
 let english = 85
-console.log(Array.of(math, science, english))
+// console.log(Array.of(math, science, english))
+
+//  Splice is a mutating method which changes the original array. 
