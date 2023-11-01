@@ -12,3 +12,9 @@ let newDate = new Date()
 // console.log(newDate.getFullYear());
 // console.log(newDate.getMonth() + 1);
 
+// Important interview question
+
+// --> Data type of date is object.
+// --> Timestamp is given by Date.now() method
+// --> To convert the millisecond in second use Math.floor(Date.now()/1000)
+
