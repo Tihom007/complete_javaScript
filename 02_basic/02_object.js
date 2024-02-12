@@ -32,6 +32,26 @@ const jsUser = {
 
 // +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
+const obj1 = {
+    1:"a",
+    2:"b"
+}
 
+const obj2 = {
+    3:"c",
+    4: "d"
+}
 
+const obj3 ={... obj1 , ... obj2} // spread operator
+console.log(obj3) 
+
+//Object destructure
+const course = {
+    courseName: "Js",
+    price: "1999",
+    courseInstructor: "Tihom"
+}
+
+const {courseInstructor: instructor} = course
+console.log(instructor);
 
